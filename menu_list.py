@@ -10,8 +10,8 @@ def menu():
     print("""
     1: Print List
     2: Delete Item from list
-    3: Rename Item in list
-    4: Add Item to list
+    3: Add Item to list
+    4: Rename Item in list
     5: Exit """)
     menu_loop = True      #designed a loop
   
@@ -34,6 +34,7 @@ def menu():
                 menu_list.remove(rename_item)
                 new_name = input('What would you like to rename it?: ')
                 menu_list.append(new_name)
+
             else: 
                 print('This item is not in the list')
         elif answer == 5:
