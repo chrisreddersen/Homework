@@ -2,12 +2,11 @@
 """
 Created on Mon Oct 22 08:46:12 2018
 
-@author: ALEX
+@author: Chris
 """
 import xml.etree.ElementTree as ETree
-import pickle
 import uuid as UUID
-import json
+
 class InventoryItem:
     def __init__(self,name,uuid = None):
         self.name = name
